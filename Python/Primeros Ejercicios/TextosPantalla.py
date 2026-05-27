@@ -1,0 +1,6 @@
+print ("Hello World")
+print ("How is it going?")
+print ("Lyfter team")
+print ("My favorite group band is Coldplay")
+print ("Hi there, this is my first exercise in python")
+print ("i don't know what else to type haha, this is the last one")
