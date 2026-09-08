@@ -34,7 +34,6 @@ class Torso:
 
 class Human:
     def __init__(self):
-        # crear partes finales primero
         self.head = Head()
 
         self.right_hand = Hand()
