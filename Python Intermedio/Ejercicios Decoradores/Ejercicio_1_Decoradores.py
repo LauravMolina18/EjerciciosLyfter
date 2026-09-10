@@ -1,10 +1,10 @@
 #Cree un decorador que haga print de los parámetros y retorno de la función que decore.
 
 def show_info(func):
-    def wrapper(a, b):
-        print("Parameters:", a, b)
+    def wrapper(*args, **kwargs):
+        print("Parameters:", args, kwargs)
 
-        result = func(a, b)
+        result = func(*args, **kwargs)
 
         print("Return:", result)
 
@@ -19,3 +19,4 @@ def add_numbers(a, b):
 
 
 print(add_numbers(5, 3))
+
